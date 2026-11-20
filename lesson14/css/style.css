@@ -1,0 +1,51 @@
+p{
+    color: rgb(255, 0, 0);
+}
+
+article p{
+    padding: 20px;
+    background-color: red;
+    font-size: medium;
+    text-decoration: underline;
+    color: white;
+}
+
+article > p{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+article ~ p{
+    background-color: orange;
+    padding: 20px;
+}
+
+article + p{
+    background-color: aqua;
+    padding: 20px;
+}
+
+input:out-of-range{
+    border: 3px solid red;
+    padding: 25px;
+}
+
+span:first-of-type{
+    background-color: black;
+    color: white;
+    padding: 10PX;
+}
+
+form{
+    margin: 20px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
